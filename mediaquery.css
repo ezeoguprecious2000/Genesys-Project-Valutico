@@ -59,7 +59,7 @@
                     
                 }
                 .nav-mobile{
-                    display: block;
+                    display: none;
                 }
 
     .header-container{
@@ -172,7 +172,11 @@
                     
                 }
                 .nav-mobile{
-                    display: block;
+                    display: none;
+                }
+                .nav-mobile ul li a{
+                    color: #56b766;
+                    font-size:1.2em ;
                 }
 
                 .hero-content{
