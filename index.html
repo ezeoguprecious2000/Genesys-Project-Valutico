@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+          
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,8 +13,17 @@
 <body>
 <header>
     <div class="header-container">
+
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href=""class="home">Home</a></li>
+                <li><a href=""class="#">Solutions <span class="arrow"><i class="fa-solid fa-caret-down"></i></span></a></li>
+                <li><a href=""class="#">Your work <span class="arrow"><i class="fa-solid fa-caret-down"></i></span></a></li>
+                <li><a href=""class="company">Company <span class="arrow"><i class="fa-solid fa-caret-down"></i></span></a></li> 
+            </ul>
+        </nav>
         <div class="logo"><img src="./assets/home/logo.png" alt=""></div>
-         <nav class=".nav">
+         <nav class="nav">
            <ul>
                <li><a href=""class="home">Home</a></li>
                <li><a href=""class="#">Solutions <span class="arrow"><i class="fa-solid fa-caret-down"></i></span></a></li>
@@ -22,6 +32,11 @@
            </ul>
        </nav>
     <div class="firstbuttons"><button class="requestone">Request a Demo   <i class="fa-regular fa-square-check"></i></button></div>
+     
+    <div class="nav-hamburger">
+        <i id="fa-open"   class="fa-solid fa-bars fa-xl"></i>
+        <i id="fa-close" class="fa-solid fa-xmark fa-xl"></i>
+    </div>
     </div>
 </header>
    <!--HERO SECTION  -->
@@ -32,15 +47,18 @@
             <p> Valutico provides the financial services industry and valuation experts
               with data-driven tools to perform accurate company valuations faster and more accurately than ever before.</p>
          </div>
-         <div class="hero-btn">
-             <button class="requesttwo">Request a Demo   <i class="fa-regular fa-square-check"></i></button>
+            <div class="hero-btn">
+                <button class="requesttwo">Request a Demo   <i class="fa-regular fa-square-check"></i></button>
              <button class="signup">sign up/login</button>
+            </div>
+            <div class="hero-banner">
+                <img src="assets/home/image 4.png" alt="hero-banner" >
+            </div>
+            
          </div>
-         <div class="hero-banner">
-            <img src="assets/home/image 4.png" alt="hero-banner" >
-        </div>
+         
         
-     </div>
+    
 
    </section>
    <!-- MAIN SECTION -->
@@ -129,11 +147,7 @@
 <section class="footer">
     <button class="requestthree">Request a Demo   <i class="fa-regular fa-square-check"></i></button>
 </section>
- 
-
-
-
-
+<script src="main.js"></script>
     
                             
     
