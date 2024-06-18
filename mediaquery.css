@@ -1,0 +1,285 @@
+@media (max-width:1110px) {
+    .firstbuttons{
+        display: none;}
+
+        header nav ul {
+            justify-content: end;}
+            
+            .header-container{
+                padding: 30px 50px 30px 50px;}
+
+                    .trusted-content{
+                        width: 630px;}
+
+                    .trusted-content h1{
+                        padding-bottom:5px;
+                        font-size: 1.4em;
+                                 }
+                       .trusted-content p{
+                        font-size: 1em;
+                        line-height: 2;
+                            }
+                 .trustedfirms{
+                    padding-top: 30px;
+                    gap: 30px;
+                 }
+                 .trustedfirms img{
+                    width:170px;
+                 }
+                 .whyvalutico-container{
+                    padding-bottom: 40px;
+                    padding-top: 40px;
+                
+                }
+                
+                
+                    .whyvalutico-content h2{
+                        padding-bottom:10px;
+                        font-size: 2em;
+                        line-height: 1.5;}
+                
+                .qualities{
+                     gap: 50px;
+                }
+                .list{
+                    width: 200px;
+                }
+                .list h2{
+                    font-size: 1em;
+                }
+                .list p{
+                    font-size: 0.82em;
+
+                } 
+}
+ @media (max-width:768px) {
+    .header-container{
+        padding: 30px 50px 30px 50px;}
+    
+   .hero-content{
+        width: 600px;
+       
+    }
+    .hero-content h1{
+        font-size: 2.5em;
+          }
+        .hero-content p{
+            font-size: 1.1em;}
+
+            .hero-banner img {
+                width: 700px;}
+
+            
+                .trusted-container{
+                    width: 768px;
+                }
+                    
+
+                .trusted-content{
+                    width: 590px;
+                    text-align: center;
+                    
+                }
+                 
+                 .trusted-content p{
+                    font-size: 0.85em;
+                    line-height: 1.5;
+                        }
+             .trustedfirms{
+                width: 600px;
+                gap: 30px;
+                align-items: center;
+             }
+             .trustedfirms img{
+                width:135px;
+             }
+             .whyvalutico-container{
+                padding-bottom: 40px;
+                padding-top: 40px;
+            
+            }
+            .whyvalutico-content{
+                text-align: center;
+                padding-bottom: 50px;
+                width: 620px;}
+            
+            
+            
+            
+            .qualities{
+                 gap: 40px;
+            }
+            .list{
+                width: 185px;
+            }
+            
+            
+            .accurateimage img{
+                width: 400px;
+                height: 470px;
+               
+            }
+            .accurate-content{
+                
+                width: 600px;
+                text-align: center;
+                padding-bottom: 60px;
+            }
+            
+               .accurate-content p{
+                font-size: 0.85em;
+               }
+               .feedbackcontainer{
+                width: 600px;
+               }
+               .accuratefeedback{
+            
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+               }
+               
+               .accuratefeedback div{
+                width: 220px;
+                }
+               .feedback h3{
+               font-size: 1em;
+                
+               }
+               .feedback p{
+                  font-weight: 500;
+                font-size: 0.7em;
+                line-height: 1.5;
+               }}
+               /* FOR MOBILE DEVICES */
+            @media (max-width: 700px) {
+                header nav ul { display: none;}
+
+                .hero-content{
+                    width: 400px;
+                   
+                }
+                .hero-content h1{
+                    font-size: 2.2em;
+                      }
+                    .hero-content p{
+                        font-size: 1.25em;}
+                        .hero-banner img {
+                            width: 400px;}
+
+                            .trusted-container{
+                                width: 100%;
+                            }
+
+             .trusted-content {
+                        width: 530px;
+                           align-items: center;}
+
+                    .trusted-content h1{
+                        
+                        padding-bottom:5px;
+                        font-size: 1.4em;
+                        text-align: center ;
+                                 }
+                       .trusted-content p{
+                        
+                        font-size: 1.2em;
+                        line-height: 1.6;
+                        text-align: center;
+                            }
+                 .trustedfirms{
+                    padding-top: 30px;
+                    gap: 30px;
+                 }
+                 .trustedfirms{
+                    width: 350px;
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 30px;
+                    align-items: center;
+                    justify-content: center;
+                 }
+                 .trustedfirms img{
+                    width:170px;
+                 }
+                 .whyvalutico-container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: black;
+                    color: white;
+                    padding-bottom: 40px;
+                    padding-top: 40px;
+                
+                }
+                
+                .whyvalutico-content{
+                    text-align: center;
+                    padding-bottom: 50px;
+                    width: 700px;}
+                
+                    .whyvalutico-content h2{
+                        padding-bottom:10px;
+                        font-size: 2em;
+                        line-height: 1.5;}
+                
+                .qualities{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 70px;
+                }
+                .list{
+                    width: 300px;
+                }
+                .list h2{
+                    padding-bottom: 10px;
+                } 
+                .accurate{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding-top: 30px;
+                }
+                
+                .accurateimage img{
+                    width: 500px;
+                   
+                }
+                .accurate-content{
+                    
+                    width: 800px;
+                    text-align: center;
+                    padding-bottom: 60px;
+                }
+                
+                   .accurate-content h2{
+                    padding-bottom: 10px;
+                   }
+                   .feedbackcontainer{
+                    display: flex;
+                    gap: 30px;
+                    flex: 1;
+                   }
+                   .accuratefeedback{
+                
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                   }
+                   .accuratefeedback div{
+                      width: 350px;
+                      
+                   }
+                   .feedback h3{
+                    padding-bottom: 7px;
+                    
+                   }
+                   .feedback p{
+                    font-weight: 550;
+                    line-height: 1.5;
+                   }
+                    
+            }
