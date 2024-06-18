@@ -80,6 +80,9 @@ img .logo{
         display: none;
     }
     /* NAV FOR MOBILE */
+    .nav-hamburger{
+        display: none;
+    }
     
 .herowrapper{
     width: 100%;
