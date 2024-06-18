@@ -62,6 +62,9 @@
                     display: block;
                     
                 }
+                .none li{
+                    display: inline-block;
+                }
                 .nav-mobile{
                     display: none;
                     
@@ -220,7 +223,9 @@
                     color: #56b766;
                     font-size:1.2em ;
                 }
-
+                .none li{
+                    display: inline-block;
+                }
                 .hero-content{
                     width: 400px;
                    
