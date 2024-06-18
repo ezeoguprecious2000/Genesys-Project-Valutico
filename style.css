@@ -83,6 +83,9 @@ img .logo{
     .nav-hamburger{
         display: none;
     }
+    .none{
+        display: none;
+    }
     
 .herowrapper{
     width: 100%;
